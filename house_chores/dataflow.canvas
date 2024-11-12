@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"00abe55d9d613bf9","type":"text","text":"reminder scraper\nswift app installed on both phones ","x":-309,"y":80,"width":250,"height":140},
+		{"id":"36a335bfe1df232c","type":"text","text":"Sara Iphone","x":-129,"y":295,"width":250,"height":60},
+		{"id":"0b87dbe8113536c4","type":"text","text":"Tomek Iphone","x":-469,"y":295,"width":250,"height":60},
+		{"id":"ba72371af48d88d4","type":"text","text":"outlook api","x":-129,"y":-360,"width":250,"height":60},
+		{"id":"0ab5af405c9a6c17","type":"text","text":"google calendar api","x":-480,"y":-340,"width":250,"height":60},
+		{"id":"eea1a00699d425de","type":"text","text":"Tomeks calendar","x":-480,"y":-480,"width":250,"height":60},
+		{"id":"018bc07d6c3eafd0","type":"text","text":"Saras calendar","x":-129,"y":-480,"width":250,"height":50},
+		{"id":"d45f55000e9357ab","type":"text","text":"raspberry pi","x":-309,"y":-112,"width":250,"height":60},
+		{"id":"8f16a55debfa3c45","type":"text","text":"display host app\n- reminder data\n- calendars","x":73,"y":-142,"width":250,"height":120}
+	],
+	"edges":[
+		{"id":"7cf3f330c8c4ba26","fromNode":"d45f55000e9357ab","fromSide":"right","toNode":"8f16a55debfa3c45","toSide":"left"},
+		{"id":"57e7fd0b7d5fb2cc","fromNode":"d45f55000e9357ab","fromSide":"bottom","toNode":"00abe55d9d613bf9","toSide":"top","label":"reminder data"},
+		{"id":"84b5e596fdaed91d","fromNode":"00abe55d9d613bf9","fromSide":"bottom","toNode":"0b87dbe8113536c4","toSide":"top"},
+		{"id":"ec6ff990f2a8e74b","fromNode":"00abe55d9d613bf9","fromSide":"bottom","toNode":"36a335bfe1df232c","toSide":"top"},
+		{"id":"10a8e67ecd1487b3","fromNode":"0ab5af405c9a6c17","fromSide":"top","toNode":"eea1a00699d425de","toSide":"bottom"},
+		{"id":"6788a6f3a62e79ad","fromNode":"d45f55000e9357ab","fromSide":"top","toNode":"ba72371af48d88d4","toSide":"bottom"},
+		{"id":"85cc6ab6c0aee135","fromNode":"d45f55000e9357ab","fromSide":"top","toNode":"0ab5af405c9a6c17","toSide":"bottom"},
+		{"id":"7fea27863b67646d","fromNode":"ba72371af48d88d4","fromSide":"top","toNode":"018bc07d6c3eafd0","toSide":"bottom"}
+	]
+}
