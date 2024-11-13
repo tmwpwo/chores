@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "dataflow.canvas",
+                "file": "techstack.canvas",
                 "viewState": {
-                  "x": -78.5,
-                  "y": -55.23605958403853,
-                  "zoom": -0.46159295992676463
+                  "x": -52.73959437065079,
+                  "y": -252.88280098859042,
+                  "zoom": -0.4291178385416665
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "dataflow"
+              "title": "techstack"
             }
           }
         ]
@@ -167,8 +167,8 @@
   },
   "active": "d7fc9d90c3609742",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "house_chores.md",
-    "dataflow.canvas"
+    "dataflow.canvas",
+    "techstack.canvas",
+    "Tech stack.md"
   ]
 }

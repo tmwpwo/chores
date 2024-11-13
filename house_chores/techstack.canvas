@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"db62f7d69909a0cc","type":"text","text":"### Swift App\nCaptures reminders and calendar data, sends it to the local API when connected to the home Wi-Fi.","x":-600,"y":-200,"width":250,"height":220},
+		{"id":"21afd499813df07c","type":"text","text":"### golang api \nActs as the central data aggregator, collecting data","x":-220,"y":-170,"width":250,"height":160},
+		{"id":"bca152dc85f1ebc9","type":"text","text":"### calendars \n- outlook \n- google calendar","x":-220,"y":-460,"width":250,"height":165},
+		{"id":"b9a521a5344bebf7","x":180,"y":-205,"width":250,"height":230,"type":"text","text":"### **Electron App** on Raspberry Pi\nDisplays all gathered data in a user-friendly and visually appealing dashboard"}
+	],
+	"edges":[
+		{"id":"45361ad57d5cb08a","fromNode":"db62f7d69909a0cc","fromSide":"right","toNode":"21afd499813df07c","toSide":"left"},
+		{"id":"884b4c7c958ec916","fromNode":"bca152dc85f1ebc9","fromSide":"bottom","toNode":"21afd499813df07c","toSide":"top"},
+		{"id":"522c65bd72994737","fromNode":"21afd499813df07c","fromSide":"right","toNode":"b9a521a5344bebf7","toSide":"left"}
+	]
+}
